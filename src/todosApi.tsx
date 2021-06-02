@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import { ApiDataType, ITodo } from './type';
 
-const baseUrl: string = "https://todo-app-suve.herokuapp.com/";
+const baseUrl: string = "https://todo-app-suve.herokuapp.com";
 
 export const getTodos = async (): Promise<AxiosResponse<ApiDataType>> => {
     try {
