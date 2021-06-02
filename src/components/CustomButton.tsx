@@ -2,8 +2,8 @@ import { Button } from 'antd';
 
 type CustomButtonProps = {
     buttonName: string,
-    buttonClick: any,
-    className: string
+    buttonClick?: () => void,
+    className?: string
 }
 
 const CustomButton = ({ buttonName, buttonClick, className }: CustomButtonProps) => {
